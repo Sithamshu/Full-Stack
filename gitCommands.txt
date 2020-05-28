@@ -1,0 +1,83 @@
+    2  pwd
+    3  ls
+    4  ls -a
+    5  clear
+    6  cd Desktop/
+    7  cd situ/
+    8  cd downloads/
+    9  cd Downloads/
+   10  cd Newfolder/
+   11  mkdir fukkstack
+   12  zoomit.png
+   13  cd full
+   14  mkdir fullstack
+   15  cd fullstack
+   16  touch Full_Stack.txt
+   17  ls
+   18  cat Full_Stack.txt
+   19  echo "Full Stack Developer"> Full_Stack.txt
+   20  cat Full_Stack.txt
+   21  echo "HTML and CSS"> Full_Stack.txt
+   22  cat Full_Stack.txt
+   23  echo "JavaScript" >> Full_Stsck.txt
+   24  cat Full_Stack.txt
+   25  echo "JavaScript" >> Full_Stack.txt
+   26  cat Full_Stack.txt
+   27  nano Full_Stack.txt
+   28  cat Full_Stack.txt
+   29  nano Data.txt
+   30  cat Full_Stack.txt
+   31  ls
+   32  ls
+   33  nano Data.txt
+   34  ls
+   35  nano data.txt
+   36  ls
+   37  clear
+   38  rm --help
+   39  rm Full_Stsck.txt
+   40  ls
+   41  ok
+   42  git init
+   43  mkdir GIT
+   44  ls
+   45  git init
+   46  git status
+   47  git add Full_Stack.txt
+   48  git add data.txt
+   49  git status
+   50  git commit -m "First Commit"
+   51  git config --global user.email 'sitamshuteegala@gmail.com'
+   52  git config --global user.name 'SitamshutTeegala'
+   53  git config user.email
+   54  git config user.name
+   55  git config --global user.name 'SithamshutTeegala'
+   56  git config user.name
+   57  git commit -m "First Commit"
+   58  nano full_Stack.txt
+   59  git status
+   60  git add Full_Stack.txt
+   61  git commit -m "Second Commit"
+   62  git log
+   63  mkdir Full-Stack
+   64  ls
+   65  git remote -help
+   66  git remote add Full-Stack https://github.com/Sithamshu/Full-Stack
+   67  git remote show
+   68  git remote -v
+   69  git pull Full-Stack master
+   70  git push -u Full-Stack
+   71  git push --set-upstream Full-Stack
+   72  git push --set-upstream Full-Stack master
+   73  vedaNani49$
+   74  git pull Full-Stack master
+   75  git push -u Full-Stack
+   76  git push -f --set-upstream Full-Stack masteer
+   77  git push -f --set-upstream Full-Stack master
+   78  git status
+   79  git add gitCommands.txt
+   80  #history 448 > gitCommands.txt
+   81  git status
+   82  git add gitCommands.txt
+   83  history
+   84  history 83 > gitCommands.txt
