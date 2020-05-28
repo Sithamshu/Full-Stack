@@ -1,0 +1,17 @@
+.a{
+    color:black;
+    text-align:center;
+    text-transform:capitalize;
+    font-style:arial;
+}
+.b{    color:red;
+    text-align:left;
+    font-style:italic;
+    text-transform: initial;
+}
+.c{
+    color:blue;
+    text-align:left;
+    font-style: italic;
+    text-transform:initial;
+}
