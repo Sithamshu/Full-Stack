@@ -1,0 +1,18 @@
+.a1{
+    text-align: center;
+    border-style: dotted;
+    border-top-color: lightcoral;
+    border-bottom-color: lightgreen;
+    border-left-color: lightsteelblue;
+    border-right-color: linen;
+}
+.a2{
+    text-align: right;
+    border-style: double;
+    border-color: indigo;
+}
+.a3{
+    text-align: left;
+    border-style: groove;
+    border-color: hotpink;
+}

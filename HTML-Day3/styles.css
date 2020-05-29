@@ -1,0 +1,42 @@
+.a1{
+    color:rgb(226, 21, 21);
+}
+.a2{
+    color:rgb(34, 32, 32);
+}
+.a3{
+    color:grey;
+}
+.b1{
+    width:70%;
+    height:100%;
+    background-image:  url('back-1.jpg');
+}
+.b2{
+    width: 70%;
+    height:100%;
+    background-image: url('back-2.jpg');
+    background-repeat: no-repeat;
+}
+.b3{
+    width:70% ;
+    height:100%;
+    background-image: url('back-3.jpg');
+    background-repeat: no-repeat;
+}
+.c1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large; 
+    font-variant: small-caps;
+    font-weight: lighter;
+    
+}
+.c2{
+    font-family: cursive;
+    font-size: medium;
+    font-weight: bolder;
+}
+.c3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+ }
