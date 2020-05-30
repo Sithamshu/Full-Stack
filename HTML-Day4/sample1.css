@@ -1,0 +1,9 @@
+select{
+    width: 50%;
+    margin:20px,10px,20px;
+    border:2px double black;
+    font-size: large;
+    background-color: cornsilk;
+    color:red;
+    padding-left: 20%;
+}

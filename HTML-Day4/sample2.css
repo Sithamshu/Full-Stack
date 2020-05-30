@@ -1,0 +1,13 @@
+.s1{
+    color:blue;
+    text-shadow:2px 4px grey;
+    text-align: center;
+}
+.s2{
+    box-shadow:2px 3px 2px 3px black;
+    text-align: center;
+    color:red;
+    width:400px;
+    height:50px;
+
+}
