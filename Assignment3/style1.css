@@ -1,0 +1,28 @@
+table{
+    border: 2px solid black;
+}
+tr{
+    color: blanchedalmond;
+}
+a{
+    color: lightgray;
+}
+a:link{
+    color:grey;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 10px;
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline;
+}
+a:hover{
+    color:blue;
+    background-color: lavender;
+    font-size: large;
+    text-decoration: underline;
+    text-align: center;
+}
+a:active{
+    color:blue;
+}
