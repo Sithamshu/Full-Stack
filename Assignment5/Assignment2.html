@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password</title>
+        <script>
+            function validate()
+            {
+                var val = document.getElementById('txtpass').value;
+                if(!/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/.test(val))
+                {
+                    window.alert('one lower case character, minimum one upper case character and minimum one digit is required');
+                }
+                else if(document.getElementById('txtpass').value.length < 6)
+                {
+                    alert('min length of password is 6');
+                    document.getElementById('txtpass').focus();
+                }
+                else if(document.getElementById('txtpass').value.length > 12)
+                {
+                    alert('max length of password is 12');
+                }
+                else
+                {
+                    alert('valid password');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="password" id="txtpass" /><br />
+        <button type="button" onclick="validate()">Validate</button>
+    </body>
+</html>
