@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#btnfadeIn").click(function(){
+                $("#a1").fadeIn(3000);
+        });
+            $("#btnfadeOut").click(function(){
+                $("#a1").fadeOut(2000);
+        });
+        $("#btntoggle").click(function(){
+            $("#a1").fadeToggle();
+        });
+    });
+        </script>
+    </head>
+    <body>
+        <h1 id="a1">GITAM Unversity</h1>
+        <button type="button" id="btnfadeIn">Fade In</button>
+        <button type="button" id="btnfadeOut">Fade Out</button>
+        <button type="button" id="btntoggle">Fade Toggle</button>
+    </body>
+</html>

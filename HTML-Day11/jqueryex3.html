@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#btnHide").click(function(){
+                $(".a1").hide();
+        });
+            $("#btnShow").click(function(){
+                $(".a1").show();
+        });
+        $("#btntoggle").click(function(){
+            $(".a2").toggle(1000);
+        });
+    });
+        </script>
+    </head>
+    <body>
+        <h1 class="a1">CSE</h1>
+        <h1 class="a2">GITAM Unversity</h1>
+        <button type="button" id="btnHide">Hide</button>
+        <button type="button" id="btnShow">Show</button>
+        <button type="button" id="btntoggle">Toggle</button>
+    </body>
+</html>
