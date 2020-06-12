@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css"/>
+        <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <script src="jquery.min.js"></script>
+        <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css"/>
+        <script type="text/javascript" src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){       
+            $( "#btn1" ).click(function() {
+                $( "#box" ).animate({right:"350px", width: "300px",height: "300px",}, 1000 );
+            });
+            $( "#btn2" ).click(function() {
+                $( "#box" ).animate({position:"absolute" ,width: "100px",height: "100px",}, 1000 );
+            });
+        });     
+        </script>
+    </head>
+    <body>
+        <button id="btn1">Animate height & width</button>
+        <button id="btn2">Reset</button>
+        <div id="box" style="background:yellow;height:100px;width:100px;margin:6px;position: absolute;">
+        <p>hello world</p></div>
+        
+    </body>
+</html>
